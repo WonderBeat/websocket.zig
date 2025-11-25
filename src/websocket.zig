@@ -9,6 +9,9 @@ pub const MessageType = Message.Type;
 pub const MessageTextType = Message.TextType;
 
 pub const Client = @import("client/client.zig").Client;
+pub const ClientConfig = @import("client/client.zig").Config;
+pub const TLSClient = @import("client/client.zig").TLSClient;
+pub const SyncClient = @import("client/client.zig").SyncClient;
 
 pub const server = @import("server/server.zig");
 pub const testing = @import("testing.zig");
